@@ -1,0 +1,197 @@
+
+
+#banner {
+    
+    width:1220px;
+    height:200px;
+    background-color:black;
+    margin: 0 auto;
+    position:relative;
+}
+
+#search {
+    width: 320px;
+    height: 200px;
+    float:right;
+    background-color:grey;
+    box-sizing:border-box;
+    margin: 0 auto;
+}
+#title {
+    /*border-radius:50px; (add for nicer looker maybe)*/
+    width: 600px;
+    height: 200px;
+    background-color:black;
+    float: right;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+#logo {
+    height: 200px;
+    width: 200px; 
+    overflow: hidden; 
+    margin:0 auto;
+    position:relative;
+  }
+  
+  
+  #logo img {
+    height: auto;
+    display: block;
+    width: 100%;
+    transition: transform 0.5s ease; 
+    justify-content: start;
+    box-sizing:border-box;
+    margin: 0 auto;
+    position:relative;
+  }
+
+
+#logo img {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#logo:hover img {
+    transform: scale(1.1); /* Adjust the scale value to control the zoom level */
+    justify-content: start;
+    box-sizing:border-box;
+    margin: 0 auto;
+    position:relative;
+  }
+
+#gender {
+    width:1220px;
+    height:700px;
+    background-color: #ab947d;
+    justify-content: start;
+    box-sizing:border-box;
+    margin: 0  auto;
+    position:relative;
+}
+#F {
+    width:290px;
+    height: 70px;
+    float:left;
+    margin-right: 20px;
+    justify-content: start;
+    box-sizing:border-box;
+    position:relative;
+    text-align: center;
+}
+#M {
+    width:290px;
+    height: 70px;
+    float:left;
+    margin-right: 20px;
+    justify-content: start;
+    box-sizing:border-box;
+    position:relative;
+    text-align: center;
+}
+#Co {
+    width: 600px;
+    height: 70px;
+    float: right;
+    justify-content: start;
+    box-sizing:border-box;
+    margin: 0 auto;
+    position:relative;
+    text-align: center;
+}
+#female {
+    width: 290px;
+    height: 630px;
+    background-color: white;
+    float: left;
+    margin-right: 20px;
+    justify-content: start;
+    box-sizing:border-box;
+    position:relative;
+}
+
+
+#male {
+    width:290px;
+    height: 630px;
+    background-color:white;
+    float:left;
+    margin-right: 20px;
+    justify-content: start;
+    box-sizing:border-box;
+    position:relative;
+}
+
+#co-ed {
+    width: 600px;
+    height: 630px;
+    background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    float: right;
+    justify-content: start;
+    box-sizing:border-box;
+    margin: 0 auto;
+    position:relative;
+}
+
+
+
+
+        .dormbutton {
+            background-color: #daaa00;
+            height: 50px;
+            color: white;
+            border: none;
+            font-size: 24px;
+            justify-content: start;
+            box-sizing:border-box;
+            margin: 0 auto;
+            position:relative;
+        }
+        
+        .dormbutton:hover {
+            background-color: #8e6f3e;
+            color: white;
+            justify-content: start;
+            box-sizing:border-box;
+            margin: 0 auto;
+            position:relative;
+        }
+
+/* Container for the image */
+#image-container {
+    height: 150px;
+    width: 250px; /* Set the desired width */
+    overflow: hidden; /* Hide any overflow */
+    padding: 20px;
+    justify-content: start;
+    position:relative;
+  }
+  
+  /* Style the image */
+  #image-container img {
+    height: auto;
+    display: block;
+    width: 100%;
+    transition: transform 0.5s ease; /* Smooth zoom effect */
+    justify-content: start;
+    box-sizing:border-box;
+    margin: 0 auto;
+    position:relative;
+  }
+
+/* Zoom in on hover */
+#image-container:hover img {
+    transform: scale(1.1); /* Adjust the scale value to control the zoom level */
+    justify-content: start;
+    box-sizing:border-box;
+    margin: 0 auto;
+    position:relative;
+  }
+
+  
