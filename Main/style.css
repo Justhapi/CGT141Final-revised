@@ -163,31 +163,28 @@
             position:relative;
         }
 
-/* Container for the image */
 #image-container {
     height: 150px;
-    width: 250px; /* Set the desired width */
-    overflow: hidden; /* Hide any overflow */
+    width: 250px; 
+    overflow: hidden; 
     padding: 20px;
     justify-content: start;
     position:relative;
   }
   
-  /* Style the image */
   #image-container img {
     height: auto;
     display: block;
     width: 100%;
-    transition: transform 0.5s ease; /* Smooth zoom effect */
+    transition: transform 0.5s ease;
     justify-content: start;
     box-sizing:border-box;
     margin: 0 auto;
     position:relative;
   }
 
-/* Zoom in on hover */
 #image-container:hover img {
-    transform: scale(1.1); /* Adjust the scale value to control the zoom level */
+    transform: scale(1.1); 
     justify-content: start;
     box-sizing:border-box;
     margin: 0 auto;
