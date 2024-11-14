@@ -1,5 +1,3 @@
-
-
 #banner {
     
     width:1220px;
@@ -9,24 +7,24 @@
     position:relative;
 }
 
-#search {
-    width: 320px;
+.banner {
+    width: 1020px;
     height: 200px;
-    float:right;
-    background-color:grey;
-    box-sizing:border-box;
-    margin: 0 auto;
-}
-#title {
-    /*border-radius:50px; (add for nicer looker maybe)*/
-    width: 600px;
-    height: 200px;
-    background-color:black;
     float: right;
     align-items: center;
     margin: 0 auto;
 }
 
+
+.banner-text {
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    padding-top: 70px; 
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+}
 
 #logo {
     height: 200px;
@@ -34,11 +32,15 @@
     overflow: hidden; 
     margin:0 auto;
     position:relative;
+    float:left;
+    padding-left: 50px;
   }
   
   
   #logo img {
+    background-image: url('../Main/images/logofinal.png');
     height: auto;
+    width:auto;
     display: block;
     width: 100%;
     transition: transform 0.5s ease; 
@@ -48,6 +50,12 @@
     position:relative;
   }
 
+  .text {
+    color:white;
+    font-size: 15pt;
+    align-items:center;
+    padding: 60pt;
+  }
 
 #logo img {
     width:100%;
@@ -63,6 +71,24 @@
     position:relative;
   }
 
+.banner-text {
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    padding-left: 30px; 
+    display: flex;
+    align-items: center;
+}
+
+
+.contact-text {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: white;
+    font-size: 1.2em;
+}
+
 #gender {
     width:1220px;
     height:700px;
@@ -76,6 +102,7 @@
     width:290px;
     height: 70px;
     float:left;
+
     margin-right: 20px;
     justify-content: start;
     box-sizing:border-box;
@@ -104,10 +131,12 @@
 }
 #female {
     width: 290px;
-    height: 630px;
+    height: 620px;
     background-color: white;
     float: left;
-    margin-right: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 15px;
     justify-content: start;
     box-sizing:border-box;
     position:relative;
@@ -116,52 +145,31 @@
 
 #male {
     width:290px;
-    height: 630px;
+    height: 620px;
     background-color:white;
     float:left;
-    margin-right: 20px;
+    border-radius: 10px;
+    margin-right: 15px;
     justify-content: start;
     box-sizing:border-box;
     position:relative;
 }
 
 #co-ed {
-    width: 600px;
-    height: 630px;
+    width: 590px;
+    height: 620px;
     background-color:white;
     display: flex;
+    border-radius: 10px;
     flex-wrap: wrap;
     max-width: 100%;
-    float: right;
+    float: left;
+    margin-right: 5px;
     justify-content: start;
     box-sizing:border-box;
     margin: 0 auto;
     position:relative;
 }
-
-
-
-
-        .dormbutton {
-            background-color: #daaa00;
-            height: 50px;
-            color: white;
-            border: none;
-            font-size: 24px;
-            justify-content: start;
-            box-sizing:border-box;
-            margin: 0 auto;
-            position:relative;
-        }
-        
-        .dormbutton:hover {
-            background-color: #8e6f3e;
-            color: white;
-            justify-content: start;
-            box-sizing:border-box;
-            margin: 0 auto;
-            position:relative;
-        }
 
 #image-container {
     height: 150px;

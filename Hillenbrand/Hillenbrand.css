@@ -1,3 +1,11 @@
+p {
+    margin: 15pt;
+ }
+
+ li {
+    font-size:10pt;
+ }
+
 #banner {
     width: 1220px;
     height: 200px;
@@ -21,32 +29,25 @@
     padding-left: 30px;
   }
   
-  /* Style the image */
   .logo img {
     height: auto;
     display: block;
     width: 100%;
-    transition: transform 0.5s ease; /* Smooth zoom effect */
+    transition: transform 0.5s ease;
     justify-content: start;
     box-sizing:border-box;
     margin: 0 auto;
     position:relative;
   }
 
-/* Zoom in on hover */
 .logo:hover img {
-    transform: scale(1.1); /* Adjust the scale value to control the zoom level */
+    transform: scale(1.1); 
     justify-content: start;
     box-sizing:border-box;
     margin: 0 auto;
     position:relative;
   }
 
-.logo img {
-    width:100%;
-    height: 100%;
-    object-fit: cover;
-}
 .text {
     position: relative;
     background-color: black;
@@ -89,6 +90,7 @@
 .text:hover:before, .text:hover:after {
     transform: translateY(-2px);
     opacity: 1;
+    
 }
 
 .text-D:after, .text-S:after {
@@ -97,7 +99,7 @@
 }
 
 .text-S:hover:after {
-    background-image: url('../Floor/Hillenbrand/SS.jpg');
+    background-image: url('../Floor/Hillenbrand/SS.jpg')
 }
 
 .text-1:after , .text-2:after , .text-3:after , .text-4:after {
@@ -145,6 +147,7 @@
 
 #yellow-block {
     width: 1220px;
+    height: 600px;
     margin: 20px auto;
     display: grid;
     grid-template-areas:
@@ -170,9 +173,6 @@
     min-height: 200px;
 }
 
-.section li {
-    margin-bottom: 5px;
-}
 
 .floor { grid-area: floor; min-height: 150px; }
 .cost { grid-area: cost; min-height: 150px; }
@@ -182,19 +182,17 @@
 .amenities { grid-area: amenities; min-height: 250px; }
 .room-photo { grid-area: room-photo; min-height: 250px; }
 
-li{ 
-    font-size: 15pt;
-}
 .floor{
     max-width: 700pt;
+    max-height: 300pt;
 }
 
 .location {
     grid-area: location;
     max-width: 700pt;
-    max-height: 320pt;
+    max-height: 340pt;
     position: relative;
-    background-image: url('../Location/Windsor.jpg');
+    background-image: url('../Location/Hillenbrand.jpg');
     background-color:white;
     background-size: 150%; 
     background-position: center; 
@@ -225,7 +223,7 @@ li{
 
 .learning-community {
     max-width: 300pt;
-    max-height: 100pt;
+    max-height: 150pt;
 }
 
 .amenities {
