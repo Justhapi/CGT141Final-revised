@@ -1,3 +1,7 @@
+li {
+    font-size:10pt;
+ }
+
 #banner {
     width: 1220px;
     height: 200px;
@@ -21,36 +25,31 @@
     padding-left: 30px;
   }
   
-  /* Style the image */
   .logo img {
     height: auto;
     display: block;
     width: 100%;
-    transition: transform 0.5s ease; /* Smooth zoom effect */
+    transition: transform 0.5s ease;
     justify-content: start;
     box-sizing:border-box;
     margin: 0 auto;
     position:relative;
   }
 
-/* Zoom in on hover */
 .logo:hover img {
-    transform: scale(1.1); /* Adjust the scale value to control the zoom level */
+    transform: scale(1.1); 
     justify-content: start;
     box-sizing:border-box;
     margin: 0 auto;
     position:relative;
   }
 
-.logo img {
-    width:100%;
-    height: 100%;
-    object-fit: cover;
-}
+
 .text {
     position: relative;
     background-color: black;
     color: white;
+    text-align: center;
 }
 
 .text:before, .text:after {
@@ -71,34 +70,58 @@
 
 .text:after {
     content: '';
-    border: 5px;
+    border: 10px;
     border-color: black;
+    border: thick;
     background-size: 100% 100%;
     background-position: center;
     width: 500px;
     height: 500px;
-    top: -75px;
-    left: 120%;
     padding: 10px;
     border-radius: 10px;
     opacity: 0;
     transition: opacity 0.5s ease;
-    z-index:1;
+    z-index: 1;
 }
-
 
 .text:hover:before, .text:hover:after {
     transform: translateY(-2px);
     opacity: 1;
+    
 }
 
+.text-S:after, .text-D:after{
+    left: 110%;
+    top: -200px;
+}
 
 .text-S:hover:after {
-    background-image: url('../Floor/Hillenbrand /S_S.png');
+    background-image: url('../Floor/Hawkins/S.jpg')
+}
+.text-D:hover:after {
+    background-image: url('../Floor/Hawkins/D.jpg')
 }
 
-.text-D:hover:after {
-    background-image: url('../Floor/Windsor/D.jpg');
+.text-1:after, .text-2:after, .text-3:after, .text-4:after {
+    top: -550px;
+    left: -100px;
+}
+
+.text-1:hover:after {
+    background-image: url('../Room/Hawkins/1.jpg');
+}
+
+.text-2:hover:after {
+    background-image: url('../Room/Hawkins/2.jpg');
+}
+
+.text-3:hover:after {
+    background-image: url('../Room/Hawkins/3.jpg');
+}
+
+.text-4:hover:after {
+    background-image: url('../Room/Hawkins/4.jpg');
+    background-position: cover;
 }
 
 
@@ -123,14 +146,16 @@
 }
 
 
+
 #yellow-block {
     width: 1220px;
+    height: 600px;
     margin: 20px auto;
     display: grid;
     grid-template-areas:
        "floor cost pros-cons"
-        "location learning-community amenities"
-        "location room-photo amenities"; 
+       "location learning-community pros-cons"
+        "location room-photo amenities";
     gap: 10px;
     box-sizing: border-box;
     grid-template-columns: 1.3fr .8fr 1fr;
@@ -150,9 +175,6 @@
     min-height: 200px;
 }
 
-.section li {
-    margin-bottom: 5px;
-}
 
 .floor { grid-area: floor; min-height: 150px; }
 .cost { grid-area: cost; min-height: 150px; }
@@ -162,19 +184,18 @@
 .amenities { grid-area: amenities; min-height: 250px; }
 .room-photo { grid-area: room-photo; min-height: 250px; }
 
-li{ 
-    font-size: 15pt;
-}
 .floor{
     max-width: 700pt;
+    max-height: 200pt;
+    
 }
 
 .location {
     grid-area: location;
     max-width: 700pt;
-    max-height: 300pt;
+    max-height: 340pt;
     position: relative;
-    background-image: url('../Location/Hillenbrand.jpg');
+    background-image: url('../Location/Hawkins.jpg');
     background-color:white;
     background-size: 150%; 
     background-position: center; 
@@ -188,8 +209,7 @@ li{
 }
 .room-photo{
     max-width: 300pt;
-    max-height: 380pt;
-    overflow-y: scroll;
+    max-height: 200pt;
 }
 
 .cost {
@@ -200,17 +220,17 @@ li{
 
 .pros-cons {
     max-width: 300pt;
-    max-height: 300pt;
+    max-height: 305pt;
     overflow-y: scroll; 
 }
 
 .learning-community {
     max-width: 300pt;
-    max-height: 100pt;
+    max-height: 150pt;
 }
 
 .amenities {
     max-width: 300pt;
-    max-height: 310pt;
+    max-height: 200pt;
     overflow-y:scroll;
 }
