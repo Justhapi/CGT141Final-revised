@@ -340,7 +340,7 @@ li {
 }
 
 .text-S:hover:after {
-    background-image: url('../Floor/McCutcheon/S.jpg')
+    background-image: url('../Images/Floor/McCutcheon/S.jpg')
 }
 
 
@@ -350,19 +350,19 @@ li {
 }
 
 .text-1:hover:after {
-    background-image: url('../Room/McCutcheon/1.jpg');
+    background-image: url('../Images/Room/McCutcheon/1.jpg');
 }
 
 .text-2:hover:after {
-    background-image: url('../Room/McCutcheon/2.jpg');
+    background-image: url('../Images/Room/McCutcheon/2.jpg');
 }
 
 .text-3:hover:after {
-    background-image: url('../Room/McCutcheon/3.jpg');
+    background-image: url('../Images/Room/McCutcheon/3.jpg');
 }
 
 .text-4:hover:after {
-    background-image: url('../Room/McCutcheon/4.jpg');
+    background-image: url('../Images/Room/McCutcheon/4.jpg');
 }
 
 
@@ -436,7 +436,7 @@ li {
     max-width: 700pt;
     max-height: 340pt;
     position: relative;
-    background-image: url('../Location/McCutcheon.jpg');
+    background-image: url('../Images/Location/McCutcheon.jpg');
     background-color:white;
     background-size: 150%; 
     background-position: center; 

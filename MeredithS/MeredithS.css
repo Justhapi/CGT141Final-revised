@@ -344,13 +344,13 @@ li {
 }
 
 .text-S:hover:after {
-    background-image: url('../Floor/MeredithS/S.jpg')
+    background-image: url('../Images/Floor/MeredithS/S.jpg')
 }
 .text-Q:hover:after {
-    background-image: url('../Floor/MeredithS/Q.jpg')
+    background-image: url('../Images/Floor/MeredithS/Q.jpg')
 }
 .text-SS:hover:after {
-    background-image: url('../Floor/MeredithS/SS.jpg')
+    background-image: url('../Images/Floor/MeredithS/SS.jpg')
 }
 
 .text-1:after, .text-2:after, .text-3:after, .text-4:after {
@@ -359,19 +359,19 @@ li {
 }
 
 .text-1:hover:after {
-    background-image: url('../Room/MeredithS/1.jpg');
+    background-image: url('../Images/Room/MeredithS/1.jpg');
 }
 
 .text-2:hover:after {
-    background-image: url('../Room/MeredithS/2.jpg');
+    background-image: url('../Images/Room/MeredithS/2.jpg');
 }
 
 .text-3:hover:after {
-    background-image: url('../Room/MeredithS/3.jpg');
+    background-image: url('../Images/Room/MeredithS/3.jpg');
 }
 
 .text-4:hover:after {
-    background-image: url('../Room/MeredithS/4.jpg');
+    background-image: url('../Images/Room/MeredithS/4.jpg');
 }
 
 
@@ -445,7 +445,7 @@ li {
     max-width: 700pt;
     max-height: 340pt;
     position: relative;
-    background-image: url('../Location/MRDS.jpg');
+    background-image: url('../Images/Location/MRDS.jpg');
     background-color:white;
     background-size: 150%; 
     background-position: center; 

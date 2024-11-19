@@ -104,19 +104,19 @@ li {
 }
 
 .text-6S:hover:after {
-    background-image: url('../Floor/Honors/6_S.jpg')
+    background-image: url('../Images/Floor/Honors/6_S.jpg')
 }
 .text-6D:hover:after {
-    background-image: url('../Floor/Honors/6_D.jpg')
+    background-image: url('../Images/Floor/Honors/6_D.jpg')
 }
 .text-25D:hover:after {
-    background-image: url('../Floor/Honors/2-5_D.jpg')
+    background-image: url('../Images/Floor/Honors/2-5_D.jpg')
 }
 .text-25Q:hover:after {
-    background-image: url('../Floor/Honors/2-5_Q.jpg')
+    background-image: url('../Images/Floor/Honors/2-5_Q.jpg')
 }
 .text-26T:hover:after {
-    background-image: url('../Floor/Honors/2-6_T.jpg')
+    background-image: url('../Images/Floor/Honors/2-6_T.jpg')
 }
 
 .text-1:after, .text-2:after, .text-3:after, .text-4:after {
@@ -125,19 +125,19 @@ li {
 }
 
 .text-1:hover:after {
-    background-image: url('../Room/Honors/1.jpg');
+    background-image: url('../Images/Room/Honors/1.jpg');
 }
 
 .text-2:hover:after {
-    background-image: url('../Room/Honors/2.jpg');
+    background-image: url('../Images/Room/Honors/2.jpg');
 }
 
 .text-3:hover:after {
-    background-image: url('../Room/Honors/3.jpg');
+    background-image: url('../Images/Room/Honors/3.jpg');
 }
 
 .text-4:hover:after {
-    background-image: url('../Room/Honors/4.jpg');
+    background-image: url('../Images/Room/Honors/4.jpg');
 }
 
 
@@ -211,7 +211,7 @@ li {
     max-width: 700pt;
     max-height: 320pt;
     position: relative;
-    background-image: url('../Location/Honors.jpg');
+    background-image: url('../Images/Location/Honors.jpg');
     background-color:white;
     background-size: 150%; 
     background-position: center; 

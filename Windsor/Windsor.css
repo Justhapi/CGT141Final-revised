@@ -100,11 +100,11 @@ li {
 }
 
 .text-S:hover:after {
-    background-image: url('../Floor/Windsor/S.jpg');
+    background-image: url('../Images/Floor/Windsor/S.jpg');
 }
 
 .text-D:hover:after {
-    background-image: url('../Floor/Windsor/D.jpg');
+    background-image: url('../Images/Floor/Windsor/D.jpg');
 }
 
 .text-1:after , .text-2:after , .text-3:after , .text-4:after {
@@ -113,19 +113,19 @@ li {
 }
 
 .text-1:hover:after {
-    background-image: url('../Room/Windsor/1.jpg');
+    background-image: url('../Images/Room/Windsor/1.jpg');
 }
 
 .text-2:hover:after {
-    background-image: url('../Room/Windsor/2.jpg');
+    background-image: url('../Images/Room/Windsor/2.jpg');
 }
 
 .text-3:hover:after {
-    background-image: url('../Room/Windsor/3.jpg');
+    background-image: url('../Images/Room/Windsor/3.jpg');
 }
 
 .text-4:hover:after {
-    background-image: url('../Room/Windsor/4.jpg');
+    background-image: url('../Images/Room/Windsor/4.jpg');
 }
 
 
@@ -195,7 +195,7 @@ li {
     max-width: 700pt;
     max-height: 340pt;
     position: relative;
-    background-image: url('../Location/Windsor.jpg');
+    background-image: url('../Images/Location/Windsor.jpg');
     background-color:white;
     background-size: 150%; 
     background-position: center; 

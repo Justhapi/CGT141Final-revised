@@ -100,7 +100,7 @@ p {
  }
  
  .text-S:hover:after {
-     background-image: url('../Floor/Shreve/S.jpg');
+     background-image: url('../Images/Floor/Shreve/S.jpg');
  }
  
  .text-1:after , .text-2:after , .text-3:after , .text-4:after {
@@ -109,19 +109,19 @@ p {
  }
  
  .text-1:hover:after {
-     background-image: url('../Room/Shreve/1.jpg');
+     background-image: url('../Images/Room/Shreve/1.jpg');
  }
  
  .text-2:hover:after {
-     background-image: url('../Room/Shreve/2.jpg');
+     background-image: url('../Images/Room/Shreve/2.jpg');
  }
  
  .text-3:hover:after {
-     background-image: url('../Room/Shreve/3.jpg');
+     background-image: url('../Images/Room/Shreve/3.jpg');
  }
  
  .text-4:hover:after {
-     background-image: url('../Room/Shreve/4.jpg');
+     background-image: url('../Images/Room/Shreve/4.jpg');
  }
  
  
@@ -191,7 +191,7 @@ p {
      max-width: 700pt;
      max-height: 340pt;
      position: relative;
-     background-image: url('../Location/Shreve.jpg');
+     background-image: url('../Images/Location/Shreve.jpg');
      background-color:white;
      background-size: 150%; 
      background-position: center; 

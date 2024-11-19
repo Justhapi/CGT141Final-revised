@@ -98,16 +98,16 @@ li {
 }
 
 .text-S:hover:after {
-    background-image: url('../Floor/Cary/S.jpg')
+    background-image: url('../Images/Floor/Cary/S.jpg')
 }
 .text-SD:hover:after {
-    background-image: url('../Floor/Cary/S_DB.jpg')
+    background-image: url('../Images/Floor/Cary/S_DB.jpg')
 }
 .text-RD:hover:after {
-    background-image: url('../Floor/Cary/R_DB.jpg')
+    background-image: url('../Images/Floor/Cary/R_DB.jpg')
 }
 .text-LD:hover:after {
-    background-image: url('../Floor/Cary/L_DB.jpg')
+    background-image: url('../Images/Floor/Cary/L_DB.jpg')
 }
 
 .text-1:after, .text-2:after, .text-3:after, .text-4:after {
@@ -116,19 +116,19 @@ li {
 }
 
 .text-1:hover:after {
-    background-image: url('../Room/CaryQuad/1.jpg');
+    background-image: url('../Images/Room/CaryQuad/1.jpg');
 }
 
 .text-2:hover:after {
-    background-image: url('../Room/CaryQuad/2.jpg');
+    background-image: url('../Images/Room/CaryQuad/2.jpg');
 }
 
 .text-3:hover:after {
-    background-image: url('../Room/CaryQuad/3.jpg');
+    background-image: url('../Images/Room/CaryQuad/3.jpg');
 }
 
 .text-4:hover:after {
-    background-image: url('../Room/CaryQuad/4.jpg');
+    background-image: url('../Images/Room/CaryQuad/4.jpg');
 }
 
 
@@ -202,7 +202,7 @@ li {
     max-width: 700pt;
     max-height: 340pt;
     position: relative;
-    background-image: url('../Location/Cary.jpg');
+    background-image: url('../Images/Location/Cary.jpg');
     background-color:white;
     background-size: 150%; 
     background-position: center; 

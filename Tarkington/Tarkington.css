@@ -99,7 +99,7 @@ p {
  }
  
  .text-S:hover:after {
-     background-image: url('../Floor/Tarkington/S.jpg');
+     background-image: url('../Images/Floor/Tarkington/S.jpg');
  }
  
  .text-1:after , .text-2:after , .text-3:after , .text-4:after {
@@ -108,19 +108,19 @@ p {
  }
  
  .text-1:hover:after {
-     background-image: url('../Room/Tarkington/1.jpg');
+     background-image: url('../Images/Room/Tarkington/1.jpg');
  }
  
  .text-2:hover:after {
-     background-image: url('../Room/Tarkington/2.jpg');
+     background-image: url('../Images/Room/Tarkington/2.jpg');
  }
  
  .text-3:hover:after {
-     background-image: url('../Room/Tarkington/3.jpg');
+     background-image: url('../Images/Room/Tarkington/3.jpg');
  }
  
  .text-4:hover:after {
-     background-image: url('../Room/Tarkington/4.jpg');
+     background-image: url('../Images/Room/Tarkington/4.jpg');
  }
  
  
@@ -190,7 +190,7 @@ p {
      max-width: 700pt;
      max-height: 340pt;
      position: relative;
-     background-image: url('../Location/Tark.jpg');
+     background-image: url('../Images/Location/Tark.jpg');
      background-color:white;
      background-size: 150%; 
      background-position: center; 
