@@ -4,6 +4,9 @@ p {
 
  li {
     font-size:10pt;
+ } 
+ h5{
+    margin:5pt;
  }
  #banner {
      width: 1220px;
@@ -211,7 +214,6 @@ p {
  .cost {
      max-width: 300pt;
      max-height: 400pt;
-     overflow-y: scroll;
  }
  
  .pros-cons {
@@ -228,6 +230,5 @@ p {
  .amenities {
      max-width: 300pt;
      max-height: 200pt;
-     overflow-y:scroll;
  }
  

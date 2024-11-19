@@ -1,7 +1,9 @@
 li {
     font-size:10pt;
  }
-
+ h5{
+    margin:5pt;
+ }
 #banner {
     width: 1220px;
     height: 200px;
@@ -186,7 +188,6 @@ li {
 .floor{
     max-width: 700pt;
     max-height: 200pt;
-    
 }
 
 .location {
@@ -214,13 +215,11 @@ li {
 .cost {
     max-width: 300pt;
     max-height: 400pt;
-    overflow-y: scroll;
 }
 
 .pros-cons {
     max-width: 300pt;
     max-height: 305pt;
-    overflow-y: scroll; 
 }
 
 .learning-community {
@@ -231,5 +230,4 @@ li {
 .amenities {
     max-width: 300pt;
     max-height: 200pt;
-    overflow-y:scroll;
 }
