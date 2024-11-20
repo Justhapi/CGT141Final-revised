@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <script src ="../Functions.js"></script>
   <title>Purdue Residence Hall Redesign</title>
 </head>
 <body>
@@ -25,31 +26,51 @@
             <div id="Co"><h1>Co-Ed</h1></div>
         </div>
         
-        <div id="female" style="overflow-y:scroll;">
-            <a href="../Meredith/Meredith.html"><div id="image-container" style="margin-top: 35px;"><img src="../Images/Pic/Meredith.jpg" alt="Zoom Effect Image"></div></a>
-            <a href="../MeredithS/MeredithS.html"><div id="image-container"><img src="../Images/Pic/MeredithS.jpg" alt="Zoom Effect Image"></div></a>
-            <a href="../Windsor/Windsor.html"><div id="image-container"><img src="../Images/Pic/Windsor.jpg" alt="Zoom Effect Image"></div></a>
+        <div id="female">
+            <div id="image-container" class="button" data-target="../Meredith/Meredith.html" style="margin-top: 35px;">
+                <img src="../Images/Pic/Meredith.jpg" alt="Meredith">
+            </div>
+            <div id="image-container" class="button" data-target="../MeredithS/MeredithS.html">
+                <img src="../Images/Pic/MeredithS.jpg" alt="Meredith South">
+            </div>
+            <div id="image-container" class="button" data-target="../Windsor/Windsor.html">
+                <img src="../Images/Pic/Windsor.jpg" alt="Windsor">
+            </div>
         </div>
         
         <div id="male" style="overflow-y:scroll;">
-            <a href="../CaryQuad/CaryQuad.html"><div id="image-container"  style="margin-top: 35px;"><img src="../Images/Pic/CaryQuad.jpg" alt="Zoom Effect Image"></div></a>
-            <a href="../McCutcheon/McCutcheon.html"><div id="image-container"><img src="../Images/Pic/McCutcheon.jpg" alt="Zoom Effect Image"></div></a>
-            <a href="../Tarkington/Tarkington.html"><div id="image-container"><img src="../Images/Pic/Tarkinton.jpg" alt="Zoom Effect Image"></div></a>
-        </div>
-
-        <div id="co-ed" style="overflow-y:scroll;">
-            <a href="../Earhart/Earhart.html"><div id="image-container"  style="margin-top: 35px;"><img src="../Images/Pic/Earhart.jpg" alt="Zoom Effect Image"></div></a>
-            <a href="../FST/FST.html"><div id="image-container"  style="margin-top: 35px;"><img src="../Images/Pic/FST.jpg" alt="Zoom Effect Image"></div></a>
-            <a href="../Frieda/Frieda.html"><div id="image-container"><img src="../Images/Pic/Freida.jpg" alt="Zoom Effect Image"></div></a>
-            <a href="../Winifred/Winifred.html"><div id="image-container"><img src="../Images/Pic/Winifred.jpg" alt="Zoom Effect Image"></div></a>
-            <a href="../Harrison/Harrison.html"><div id="image-container"><img src="../Images/Pic/Harrison.jpg" alt="Zoom Effect Image"></div></a>
-            <a href="../Hawkins/Hawkins.html"><div id="image-container"><img src="../Images/Pic/Hawkins.jpg" alt="Zoom Effect Image"></div></a>
-            <a href="../Hillenbrand/Hillenbrand.html"><div id="image-container"><img src="../Images/Pic/Hillenbrand.jpg" alt="Zoom Effect Image"></div></a>
-            <a href="../Honors/Honors.html"><div id="image-container"><img src="../Images/Pic/Honors.jpg" alt="Zoom Effect Image"></div></a>
-            <a href="../Owen/Owen.html"><div id="image-container"><img src="../Images/Pic/Owen.jpg" alt="Zoom Effect Image"></div></a>
-            <a href="../Shreve/Shreve.html"><div id="image-container"><img src="../Images/Pic/Shreve.jpg" alt="Zoom Effect Image"></div></a>
-            <a href="../Wiley/Wiley.html"><div id="image-container"><img src="../Images/Pic/Wiley.jpg" alt="Zoom Effect Image"></div></a>
-        </div>
+            <div id="image-container" class="button" data-target="../CaryQuad/CaryQuad.html" style="margin-top: 35px;">
+              <img src="../Images/Pic/CaryQuad.jpg" alt="CaryQuad">
+            </div>
+            <div id="image-container" class="button" data-target="../McCutcheon/McCutcheon.html">
+              <img src="../Images/Pic/McCutcheon.jpg" alt="McCutcheon">
+            </div>
+            <div id="image-container" class="button" data-target="../Tarkington/Tarkington.html">
+              <img src="../Images/Pic/Tarkinton.jpg" alt="Tarkinton">
+            </div>
+          </div>
+          
+          <div id="co-ed" style="overflow-y:scroll;">
+            <div id="image-container" class="button" data-target="../Earhart/Earhart.html" style="margin-top: 35px;">
+              <img src="../Images/Pic/Earhart.jpg" alt="Earhart">
+            </div>
+            <div id="image-container" class="button" data-target="../FST/FST.html">
+              <img src="../Images/Pic/FST.jpg" alt="FST">
+            </div>
+            <div id="image-container" class="button" data-target="../Frieda/Frieda.html">
+              <img src="../Images/Pic/Freida.jpg" alt="Freida">
+            </div>
+            <div id="image-container" class="button" data-target="../Winifred/Winifred.html">
+              <img src="../Images/Pic/Winifred.jpg" alt="Winifred">
+            </div>
+            <div id="image-container" class="button" data-target="../Harrison/Harrison.html">
+              <img src="../Images/Pic/Harrison.jpg" alt="Harrison">
+            </div>
+            <div id="image-container" class="button" data-target="../Hawkins/Hawkins.html">
+              <img src="../Images/Pic/Hawkins.jpg" alt="Hawkins">
+            </div>
+          </div>
+          
     </div>
 </body>
 </html>
