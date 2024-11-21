@@ -34,28 +34,43 @@
     font-size: 1.2em;
 }
 
-#logo {
+.logo {
     height: 200px;
     width: 200px; 
     overflow: hidden; 
     margin:0 auto;
     position:relative;
-    float:left;
     padding-left: 50px;
+    float:left;
+    background-repeat:no-repeat;
   }
   
-  
-  #logo img {
-    background-image: url('../Main/images/logofinal.png');
+  .logo img {
     height: auto;
-    width:auto;
     display: block;
     width: 100%;
-    transition: transform 0.5s ease; 
+    float:left;
     justify-content: start;
     box-sizing:border-box;
     margin: 0 auto;
     position:relative;
+    overflow: hidden;
+  }
+
+.logo:hover img {
+    opacity:0%;
+    justify-content: start;
+    overflow: hidden;
+    box-sizing:border-box;
+    margin: 0 auto;
+    position:relative;
+  }
+
+.logo:hover {        
+    background-image: url(../Images/Pic/logo.gif);
+    background-size: 80%;
+    background-position:right top;
+    padding-left: 50px;
   }
 
   .text {
@@ -63,20 +78,6 @@
     font-size: 15pt;
     align-items:center;
     padding: 60pt;
-  }
-
-#logo img {
-    width:100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-#logo:hover img {
-    transform: scale(1.1); /* Adjust the scale value to control the zoom level */
-    justify-content: start;
-    box-sizing:border-box;
-    margin: 0 auto;
-    position:relative;
   }
 
 .banner-text {
