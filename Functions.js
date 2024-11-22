@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    //index
+    //index buttons
     document.querySelectorAll(".button").forEach(button => {
         button.addEventListener("click", () => {
             
