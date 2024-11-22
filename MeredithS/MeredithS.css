@@ -440,7 +440,7 @@ li {
 
 .floor{
     max-width: 700pt;
-    max-height: 200pt;
+    max-height: 300pt;
     
 }
 
@@ -457,6 +457,7 @@ li {
     overflow:hidden;
     transition:background-size 1s ease;
 }
+
 
 .room-photo{
     max-width: 300pt;
@@ -482,5 +483,14 @@ li {
 .amenities {
     max-width: 300pt;
     max-height: 200pt;
-    overflow-y:scroll;
 }
+
+.amenities-list {
+    max-height:100pt;
+    overflow-y:scroll;
+ }
+
+ .cost-list {
+    max-height:80pt; 
+    overflow-y:scroll;
+ }

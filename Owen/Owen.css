@@ -221,12 +221,12 @@ li {
 
 .cost {
     max-width: 300pt;
-    max-height: 300pt;
+    max-height: 400pt;
 }
 
 .pros-cons {
     max-width: 300pt;
-    max-height: 300pt;
+    max-height: 305pt;
     overflow-y: scroll; 
 }
 
@@ -237,6 +237,15 @@ li {
 
 .amenities {
     max-width: 300pt;
-    max-height: 300pt;
-    overflow-y:scroll;
+    max-height: 200pt;
 }
+
+.amenities-list {
+    max-height:100pt;
+    overflow-y:scroll;
+ }
+
+ .cost-list {
+    max-height:80pt; 
+    overflow-y:scroll;
+ }

@@ -203,7 +203,7 @@ p {
 .location {
     grid-area: location;
     max-width: 700pt;
-    max-height: 340pt;
+    max-height: 320pt;
     position: relative;
     background-image: url('../Images/Location/Hillenbrand.png');
     background-color:white;
@@ -239,3 +239,13 @@ p {
     max-width: 300pt;
     max-height: 200pt;
 }
+
+.amenities-list {
+    max-height:100pt;
+    overflow-y:scroll;
+ }
+
+ .cost-list {
+    max-height:80pt; 
+    overflow-y:scroll;
+ }

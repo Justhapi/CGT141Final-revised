@@ -212,30 +212,40 @@ p {
      overflow:hidden;
      transition:background-size 1s ease;
  }
- 
+
  .room-photo{
-     max-width: 300pt;
-     max-height: 200pt;
+    max-width: 300pt;
+    max-height: 200pt;
+}
+
+.cost {
+    max-width: 300pt;
+    max-height: 400pt;
+}
+
+.pros-cons {
+    max-width: 300pt;
+    max-height: 305pt;
+    overflow-y: scroll; 
+}
+
+.learning-community {
+    max-width: 300pt;
+    max-height: 150pt;
+}
+
+.amenities {
+    max-width: 300pt;
+    max-height: 200pt;
+}
+
+.amenities-list {
+    max-height:100pt;
+    overflow-y:scroll;
  }
- 
- .cost {
-     max-width: 300pt;
-     max-height: 400pt;
- }
- 
- .pros-cons {
-     max-width: 300pt;
-     max-height: 305pt;
-     overflow-y: scroll; 
- }
- 
- .learning-community {
-     max-width: 300pt;
-     max-height: 150pt;
- }
- 
- .amenities {
-     max-width: 300pt;
-     max-height: 200pt;
+
+ .cost-list {
+    max-height:80pt; 
+    overflow-y:scroll;
  }
  
