@@ -27,6 +27,11 @@ table, th, td {
   border-collapse: collapse;
 }
 
+#coedtb {
+    border-bottom: none;
+    border-top: none;
+}
+
 #banner {
     
     width:1220px;
