@@ -192,6 +192,7 @@ p {
     justify-content: start;
     box-sizing:border-box;
     position:relative;
+    overflow-x: hidden;
 }
 
 
@@ -205,6 +206,7 @@ p {
     justify-content: start;
     box-sizing:border-box;
     position:relative;
+    overflow-x: hidden;
 }
 
 #co-ed {
