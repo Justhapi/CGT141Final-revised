@@ -17,6 +17,10 @@ body{
     font-family: "Franklin Gothic", "Georgia", "Impact1";
 }
 
+p {
+    text-align: center;
+}
+
 #banner {
     
     width:1220px;
