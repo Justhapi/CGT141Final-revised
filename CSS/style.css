@@ -23,10 +23,6 @@ p {
     font-family: "Franklin Gothic";
 }
 
-table {
-  border-bottom: none;
-  border-top: none;  
-}
 
 table, th, td {
   border: 1px solid black;
