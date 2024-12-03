@@ -47,6 +47,7 @@ body{
 
 .contact-text {
     position: absolute;
+    font-family: "Franklin Gothic";
     bottom: 10px;
     left: 20px;
     color: white;
