@@ -19,7 +19,6 @@ body{
 
 h3 {
     text-decoration-line: underline;
-    font-family: "Franklin Gothic";
 }
 
 p {
@@ -34,6 +33,7 @@ li {
  h5{
      margin:5pt;
      font-size:16pt;
+     font-family: "Franklin Gothic";
  }
 #banner {
     width: 1220px;
