@@ -17,8 +17,10 @@ body{
     font-family: "Franklin Gothic", "Georgia", "Impact1";
 }
 
-h3 {
+p {
     text-align: center;
+    font-size: 12pt;
+    font-family: "Franklin Gothic";
 }
 
 #banner {
