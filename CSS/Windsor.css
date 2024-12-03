@@ -17,6 +17,9 @@ body{
     font-family: "Franklin Gothic", "Georgia", "Impact1";
 }
 
+h3 {
+    text-decoration-line: underline;
+}
 
 p {
    margin: 15pt;
