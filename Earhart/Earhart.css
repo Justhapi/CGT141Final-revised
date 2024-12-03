@@ -40,7 +40,7 @@ li {
     overflow: hidden;
   }
 
-.logo:hover img {
+.logo:active img {
     opacity:0%;
     justify-content: start;
     overflow: hidden;
@@ -50,7 +50,7 @@ li {
   }
 
 
-.logo:hover {        
+.logo:active {        
     background-image: url(../Images/Pic/logo.gif);
     background-size: 87%;
     background-position:right top;
@@ -107,10 +107,10 @@ li {
     top: -200px;
 }
 
-.text-D:hover:after {
+.text-D:active:after {
     background-image: url('../Images/Floor/Earhart/ST.jpg')
 }
-.text-T:hover:after {
+.text-T:active:after {
     background-image: url('../Images/Floor/Earhart/ST.jpg')
 }
 
@@ -119,19 +119,19 @@ li {
     left: -100px;
 }
 
-.text-1:hover:after {
+.text-1:active:after {
     background-image: url('../Images/Room/Earhart/1.jpg');
 }
 
-.text-2:hover:after {
+.text-2:active:after {
     background-image: url('../Images/Room/Earhart/2.jpg');
 }
 
-.text-3:hover:after {
+.text-3:active:after {
     background-image: url('../Images/Room/Earhart/3.jpg');
 }
 
-.text-4:hover:after {
+.text-4:active:after {
     background-image: url('../Images/Room/Earhart/4.jpg');
 }
 

@@ -39,7 +39,7 @@ li {
     position:relative;
   }
 
-.logo:hover img {
+.logo:active img {
     transform: scale(1.1); 
     justify-content: start;
     box-sizing:border-box;
@@ -86,7 +86,7 @@ li {
     z-index: 1;
 }
 
-.text:hover:before, .text:hover:after {
+.text:active:before, .text:active:after {
     transform: translateY(-2px);
     opacity: 1;
     
@@ -97,16 +97,16 @@ li {
     top: -200px;
 }
 
-.text-S:hover:after {
+.text-S:active:after {
     background-image: url('../Floor/Cary/S.jpg')
 }
-.text-SD:hover:after {
+.text-SD:active:after {
     background-image: url('../Floor/Cary/S_DB.jpg')
 }
-.text-RD:hover:after {
+.text-RD:active:after {
     background-image: url('../Floor/Cary/R_DB.jpg')
 }
-.text-LD:hover:after {
+.text-LD:active:after {
     background-image: url('../Floor/Cary/L_DB.jpg')
 }
 
@@ -115,19 +115,19 @@ li {
     left: -100px;
 }
 
-.text-1:hover:after {
+.text-1:active:after {
     background-image: url('../Room/CaryQuad/1.jpg');
 }
 
-.text-2:hover:after {
+.text-2:active:after {
     background-image: url('../Room/CaryQuad/2.jpg');
 }
 
-.text-3:hover:after {
+.text-3:active:after {
     background-image: url('../Room/CaryQuad/3.jpg');
 }
 
-.text-4:hover:after {
+.text-4:active:after {
     background-image: url('../Room/CaryQuad/4.jpg');
 }
 

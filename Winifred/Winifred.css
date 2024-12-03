@@ -44,7 +44,7 @@ p {
     overflow: hidden;
   }
 
-.logo:hover img {
+.logo:active img {
     opacity:0%;
     justify-content: start;
     overflow: hidden;
@@ -53,7 +53,7 @@ p {
     position:relative;
   }
 
-.logo:hover {        
+.logo:active {        
     background-image: url(../Images/Pic/logo.gif);
     background-size: 87%;
     background-position:right top;
@@ -98,7 +98,7 @@ p {
      z-index: 1;
  }
  
- .text:hover:before, .text:hover:after {
+ .text:active:before, .text:active:after {
      transform: translateY(-2px);
      opacity: 1;
  }
@@ -108,11 +108,11 @@ p {
      top: -200px;
  }
  
- .text-S:hover:after {
+ .text-S:active:after {
      background-image: url('../Images/Floor/Winifred/S.jpg');
  }
  
- .text-SS:hover:after {
+ .text-SS:active:after {
      background-image: url('../Images/Floor/Winifred/SS.jpg');
  }
  
@@ -121,19 +121,19 @@ p {
      left: -100px;
  }
  
- .text-1:hover:after {
+ .text-1:active:after {
      background-image: url('../Images/Room/Winifred/1.jpg');
  }
  
- .text-2:hover:after {
+ .text-2:active:after {
      background-image: url('../Images/Room/Winifred/2.jpg');
  }
  
- .text-3:hover:after {
+ .text-3:active:after {
      background-image: url('../Images/Room/Winifred/3.jpg');
  }
  
- .text-4:hover:after {
+ .text-4:active:after {
      background-image: url('../Images/Room/Winifred/4.jpg');
  }
  
