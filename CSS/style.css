@@ -13,6 +13,10 @@
     src:url("Fonts/Impact.ttf") format("truetype");
 }
 
+body {
+    font-family: "Franklin Gothic", "Georgia", "Impact1";
+}
+
 #banner {
     
     width:1220px;
@@ -33,7 +37,6 @@
 
 .banner-text {
     font-family: "Impact1";
-    font-weight: lighter;
     font-size: 3em;
     color: white;
     padding-top: 70px; 
