@@ -9,7 +9,7 @@
 }
 
 @font-face {
-    font-family: "Impact";
+    font-family: "Impact1";
     src:url("Fonts/Impact.ttf") format("truetype");
 }
 
@@ -32,7 +32,7 @@
 
 
 .banner-text {
-    font-family: "Impact";
+    font-family: "Impact1";
     font-weight: lighter;
     font-size: 3em;
     color: white;
