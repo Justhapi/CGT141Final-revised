@@ -229,7 +229,7 @@ p {
     height: 150px;
     width: 250px; 
     overflow: hidden; 
-    padding: 20px;
+    padding: 10px;
     justify-content: start;
     position:relative;
   }
