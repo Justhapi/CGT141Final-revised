@@ -23,11 +23,12 @@ p {
    font-family: "Georgia";
 }
 li {
-    font-size:10pt;
+    font-size:12pt;
     font-family: "Georgia";
  }
  h5{
      margin:5pt;
+     font-size:14pt;
  }
 #banner {
     width: 1220px;
