@@ -21,6 +21,10 @@ li {
     position: relative;
 }
 
+.banner text {
+   font-family: "Impact"
+}
+
 .logo {
     height: 200px;
     width: 200px; 
