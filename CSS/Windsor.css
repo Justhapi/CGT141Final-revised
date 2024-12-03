@@ -1,5 +1,6 @@
 p {
    margin: 15pt;
+   font-family: "Georgia";
 }
 li {
     font-size:10pt;
@@ -22,7 +23,7 @@ li {
 }
 
 .banner text {
-   font-family: "Impact";
+   font-family: "Impact1";
 }
 
 .logo {
