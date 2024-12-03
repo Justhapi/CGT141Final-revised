@@ -1,3 +1,23 @@
+@font-face {
+    font-family: "Franklin Gothic";
+    src:url("Fonts/FranklinGothic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Georgia";
+    src:url("Fonts/Georgia.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Impact1";
+    src:url("Fonts/Impact.ttf") format("truetype");
+}
+
+body{
+    font-family: "Franklin Gothic", "Georgia", "Impact1";
+}
+
+
 p {
    margin: 15pt;
    font-family: "Georgia";
