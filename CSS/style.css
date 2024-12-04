@@ -105,7 +105,7 @@ h1 {
   }
 
 .logo:hover {        
-    background-image: url(Images/Pic/logo.gif);
+    background-image: url(../Images/Pic/logo.gif);
     background-size: 80%;
     background-position:right top;
     padding-left: 50px;
