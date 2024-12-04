@@ -85,7 +85,7 @@ li {
     position:relative;
   }
 
-.logo:active {        
+.logo:hover {        
     background-image: url(../Images/Pic/logo.gif);
     background-size: 87%;
     background-position:right top;
