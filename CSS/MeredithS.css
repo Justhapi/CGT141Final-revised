@@ -404,19 +404,7 @@ li {
 }
 
 
-#yellow-block {
-    width: 1220px;
-    height: 600px;
-    margin: 20px auto;
-    display: grid;
-    grid-template-areas:
-       "floor cost pros-cons"
-       "location learning-community pros-cons"
-        "location room-photo amenities";
-    gap: 10px;
-    box-sizing: border-box;
-    grid-template-columns: 1.3fr .8fr 1fr;
-}
+
 
 .section {
     background-color: #DAAA00;
