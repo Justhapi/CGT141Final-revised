@@ -76,7 +76,7 @@ li {
     overflow: hidden;
   }
 
-.logo:active img {
+.logo:hover img {
     opacity:0%;
     justify-content: start;
     overflow: hidden;
