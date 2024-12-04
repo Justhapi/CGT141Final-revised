@@ -148,29 +148,6 @@ li {
     background-image: url('../Floor/Cary/L_DB.jpg')
 }
 
-.text-1:after, .text-2:after, .text-3:after, .text-4:after {
-    top: -550px;
-    left: -100px;
-}
-
-.text-1:active:after {
-    background-image: url('../Room/CaryQuad/1.jpg');
-}
-
-.text-2:active:after {
-    background-image: url('../Room/CaryQuad/2.jpg');
-}
-
-.text-3:active:after {
-    background-image: url('../Room/CaryQuad/3.jpg');
-}
-
-.text-4:active:after {
-    background-image: url('../Room/CaryQuad/4.jpg');
-}
-
-
-
 
 .banner-text {
     font-size: 3em;
