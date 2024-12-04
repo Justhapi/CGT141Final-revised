@@ -421,13 +421,6 @@ li {
 }
 
 
-.floor { grid-area: floor; min-height: 150px; }
-.cost { grid-area: cost; min-height: 150px; }
-.learning-community { grid-area: learning-community; min-height: 150px; }
-.location { grid-area: location; min-height: 300px; }
-.pros-cons { grid-area: pros-cons; min-height: 400px; }
-.amenities { grid-area: amenities; min-height: 250px; }
-.room-photo { grid-area: room-photo; min-height: 250px; }
 
 .floor{
     max-width: 700pt;
