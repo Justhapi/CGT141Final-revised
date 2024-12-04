@@ -216,7 +216,7 @@ li {
 .location {
     grid-area: location;
     max-width: 700pt;
-    max-height: 300pt;
+    max-height: 340pt;
     position: relative;
     background-image: url('../Images/Location/MRDS.png');
     background-color:white;
