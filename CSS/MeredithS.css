@@ -207,6 +207,7 @@ li {
 .amenities { grid-area: amenities; min-height: 250px; }
 .room-photo { grid-area: room-photo; min-height: 250px; }
 
+
 .floor{
     max-width: 700pt;
     max-height: 200pt;
