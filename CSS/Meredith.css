@@ -1,4 +1,291 @@
+@font-face {
+    font-family: "Franklin Gothic";
+    src:url("Fonts/FranklinGothic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Georgia";
+    src:url("Fonts/Georgia.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Impact1";
+    src:url("Fonts/Impact.ttf") format("truetype");
+}
+
+body{
+    font-family: "Franklin Gothic", "Georgia", "Impact1";
+}
+
+h3 {
+    text-decoration-line: underline;
+}
+
+p {
+   margin: 15pt;
+   font-family: "Georgia";
+}
 li {
+    font-size:12pt;
+    font-family: "Georgia";
+    line-height: 1.5;
+ }
+ h5{
+     margin:5pt;
+     font-size:16pt;
+     font-family: "Franklin Gothic";
+ }
+
+.banner text {
+   font-family: "Impact1";
+}
+
+#banner {
+    width: 1220px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 20px;
+    color: white;
+    box-sizing: border-box;
+    margin: 0 auto; 
+    position: relative;
+}
+
+.logo {
+    height: 200px;
+    width: 200px; 
+    overflow: hidden; 
+    margin:0 auto;
+    position:relative;
+    padding-left: 30px;
+    background-repeat:no-repeat;
+  }
+  
+  .logo img {
+    height: auto;
+    display: block;
+    width: 100%;
+    float:left;
+    justify-content: start;
+    box-sizing:border-box;
+    margin: 0 auto;
+    position:relative;
+    overflow: hidden;
+  }
+
+.logo:hover img {
+    opacity:0%;
+    justify-content: start;
+    overflow: hidden;
+    box-sizing:border-box;
+    margin: 0 auto;
+    position:relative;
+  }
+
+.logo:hover {        
+    background-image: url(../Images/Pic/logo.gif);
+    background-size: 87%;
+    background-position:right top;
+    padding-left: 30px;
+  }
+
+.text {
+    position: relative;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.text:before, .text:after {
+    position: absolute;
+    transition: all 0.5s ease;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.text:before {
+    content: '';
+    border-width: 10px 8px 0 8px;
+    border-style: solid;
+    border-color: transparent;
+    top: -15px;
+    transform: translateY(20px);
+}
+
+.text:after {
+    content: '';
+    border: 5px;
+    border-color: black;
+    background-size: 100% 100%;
+    background-position: center;
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 1;
+}
+
+.text:active:before, .text:active:after {
+    transform: translateY(-2px);
+    opacity: 1;
+}
+
+.text-S:after, .text-D:after {
+    left: 110%;
+    top: -200px;
+}
+
+.text-S:active:after {
+    background-image: url('../Images/Floor/Meredith/S.jpg')
+}
+.text-D:active:after {
+    background-image: url('../Images/Floor/Meredith/S.jpg')
+}
+
+.text-1:after, .text-2:after, .text-3:after, .text-4:after {
+    top: -550px;
+    left: -100px;
+}
+
+.text-1:active:after {
+    background-image: url('../Images/Room/Meredith/1.jpg');
+}
+
+.text-2:active:after {
+    background-image: url('../Images/Room/Meredith/2.jpg');
+}
+
+.text-3:active:after {
+    background-image: url('../Images/Room/Meredith/3.jpg');
+}
+
+.text-4:active:after {
+    background-image: url('../Images/Room/Meredith/4.jpg');
+}
+
+
+.banner-text {
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    padding-left: 30px; 
+    display: flex;
+    align-items: center;
+}
+
+
+.contact-text {
+    font-family: "Georgia";
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: white;
+    font-size: 1.2em;
+}
+
+
+#yellow-block {
+    width: 1220px;
+    height: 600px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-areas:
+       "floor cost pros-cons"
+       "location learning-community pros-cons"
+        "location room-photo amenities";
+    gap: 10px;
+    box-sizing: border-box;
+    grid-template-columns: 1.3fr .8fr 1fr;
+}
+
+.section {
+    background-color: #DAAA00;
+    color: black;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 1.5em;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    min-height: 200px;
+}
+
+
+.floor { grid-area: floor; min-height: 150px; }
+.cost { grid-area: cost; min-height: 150px; }
+.learning-community { grid-area: learning-community; min-height: 150px; }
+.location { grid-area: location; min-height: 300px; }
+.pros-cons { grid-area: pros-cons; min-height: 400px; }
+.amenities { grid-area: amenities; min-height: 250px; }
+.room-photo { grid-area: room-photo; min-height: 250px; }
+
+.floor{
+    max-width: 700pt;
+    max-height: 300pt;
+}
+
+.location {
+    grid-area: location;
+    max-width: 700pt;
+    max-height: 340pt;
+    position: relative;
+    background-image: url('../Images/Location/Windsor.png');
+    background-color:white;
+    background-size: 150%; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    overflow:hidden;
+    transition:background-size 1s ease;
+}
+
+.location:active {
+    background-size:100%
+}
+
+.room-photo{
+    max-width: 300pt;
+    max-height: 200pt;
+}
+
+.cost {
+    max-width: 300pt;
+    max-height: 400pt;
+}
+
+.pros-cons {
+    max-width: 300pt;
+    max-height: 305pt;
+    overflow-y: scroll; 
+}
+
+.learning-community {
+    max-width: 300pt;
+    max-height: 150pt;
+}
+
+.amenities {
+    max-width: 300pt;
+    max-height: 200pt;
+}
+
+.amenities-list {
+    max-height:100pt;
+    overflow-y:scroll;
+ }
+
+ .cost-list {
+    max-height:80pt; 
+    overflow-y:scroll;
+ }
+
+/*li {
     font-size:10pt;
  }
  h5{
@@ -487,3 +774,4 @@ li {
     max-height:80pt; 
     overflow-y:scroll;
  }
+*/
