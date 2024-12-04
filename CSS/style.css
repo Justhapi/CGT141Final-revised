@@ -192,6 +192,7 @@ h1 {
     margin: 0 auto;
     position:relative;
     text-align: center;
+    overflow-x: hidden;
 }
 #female {
     width: 290px;
