@@ -246,6 +246,10 @@ li {
     transition:background-size 1s ease;
 }
 
+.location:active {
+    background-size:100%
+}
+
 .room-photo{
     max-width: 300pt;
     max-height: 200pt;
