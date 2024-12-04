@@ -29,6 +29,11 @@ table, th, td {
   border-collapse: collapse;
 }
 
+h1 {
+    font-weight: bold;
+    font-family: "Impact1";
+}
+
 
 #banner {
     
