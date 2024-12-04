@@ -35,6 +35,11 @@ li {
      font-size:16pt;
      font-family: "Franklin Gothic";
  }
+
+.banner text {
+   font-family: "Impact1";
+}
+
 #banner {
     width: 1220px;
     height: 200px;
@@ -47,10 +52,6 @@ li {
     box-sizing: border-box;
     margin: 0 auto; 
     position: relative;
-}
-
-.banner text {
-   font-family: "Impact1";
 }
 
 .logo {
