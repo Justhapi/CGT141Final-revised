@@ -259,6 +259,7 @@ li {
 .cost {
     max-width: 300pt;
     max-height: 400pt;
+    overflow-y:scroll;
 }
 
 .pros-cons {
