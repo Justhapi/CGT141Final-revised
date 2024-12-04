@@ -184,6 +184,7 @@ li {
 
 .contact-text {
     position: absolute;
+    font-family: "Georgia";
     bottom: 10px;
     left: 20px;
     color: white;
