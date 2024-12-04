@@ -398,19 +398,19 @@ li {
     left: -100px;
 }
 
-.text-1:hover:after {
+.text-1:active:after {
     background-image: url('../Images/Room/MeredithS/1.jpg');
 }
 
-.text-2:hover:after {
+.text-2:active:after {
     background-image: url('../Images/Room/MeredithS/2.jpg');
 }
 
-.text-3:hover:after {
+.text-3:active:after {
     background-image: url('../Images/Room/MeredithS/3.jpg');
 }
 
-.text-4:hover:after {
+.text-4:active:after {
     background-image: url('../Images/Room/MeredithS/4.jpg');
 }
 
